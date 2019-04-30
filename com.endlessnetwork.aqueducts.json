@@ -38,12 +38,12 @@
         {
                     "type": "git",
                     "url": "https://github.com/endless-network/Aqueducts_Binary.git",
-                    "commit":"74f09899c32d5c074df07a7abf735dba47abd7d1"
+                    "commit":"c098ba8393a5fc8bbe2ad1d42db1ff5346c0f415"
                 },
                 {
                     "type": "file",
-                    "url": "https://github.com/endless-network/Aqueducts_Binary/releases/download/1.0.1/Aqueducts.zip",
-                    "sha256":"ffe0fb1a126b7c7207b8f34e964dd30fce00934a5346656975a0fd1059dc6939"
+                    "url": "https://github.com/endless-network/Aqueducts_Binary/releases/download/v1.2/Aqueducts.zip",
+                    "sha256":"ac016175d1a7406bcabd1795f8938d4ff630808f83a431978bf4e9fba2cb448b"
                 }
       ]
     }
