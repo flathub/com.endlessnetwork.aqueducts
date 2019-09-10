@@ -19,8 +19,8 @@
       "build-commands": [
         "install -Dm755 com.endlessnetwork.aqueducts.sh /app/bin/com.endlessnetwork.aqueducts.sh",
         "unzip Aqueducts.zip",
-        "install -Dm755 Aqueducts/aqueducts.x86_64 /app/bin/aqueducts.x86_64",
-        "mv Aqueducts/aqueducts_Data /app/bin/",
+        "install -Dm755 Aqueducts/Aqueducts.x86_64 /app/bin/Aqueducts.x86_64",
+        "mv Aqueducts/Aqueducts_Data /app/bin/",
         "install -Dm644 com.endlessnetwork_64.aqueducts.png /app/share/icons/hicolor/64x64/apps/com.endlessnetwork.aqueducts.png",
         "install -Dm644 com.endlessnetwork_128.aqueducts.png /app/share/icons/hicolor/128x128/apps/com.endlessnetwork.aqueducts.png",
         "install -Dm644 com.endlessnetwork.aqueducts_256.png /app/share/icons/hicolor/256x256/apps/com.endlessnetwork.aqueducts.png",
@@ -32,18 +32,18 @@
           "type": "script",
           "dest-filename": "com.endlessnetwork.aqueducts.sh",
           "commands": [
-            "exec /app/bin/aqueducts.x86_64"
+            "exec /app/bin/Aqueducts.x86_64"
           ]
         },
         {
                     "type": "git",
                     "url": "https://github.com/endless-network/Aqueducts_Binary.git",
-                    "commit":"8e1e39722d8d4d05603608ddef78251eb9680a00"
+                    "commit":"96426e4cdb435df289b045d382940bbd0b28b1f2"
                 },
                 {
                     "type": "file",
-                    "url": "https://github.com/endless-network/Aqueducts_Binary/releases/download/v1.2.1/Aqueducts.zip",
-                    "sha256":"1153001a14b620f7d07b224a7afed6e00ad101b8121f1fb1c5045e4f7671a91d"
+                    "url": "https://github.com/endless-network/Aqueducts_Binary/releases/download/v1.2.2/Aqueducts.zip",
+                    "sha256":"bdaeee7f6dc643d14c7a72bca78a2bb0980f9006c39b8473f8440ea7e13a4d20"
                 }
       ]
     }
