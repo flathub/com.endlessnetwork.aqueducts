@@ -38,7 +38,7 @@
         {
                     "type": "git",
                     "url": "https://github.com/endless-network/Aqueducts_Binary.git",
-                    "commit":" 59a85faa1806e7c1cc6152d5acd1cc4379018171"
+                    "commit": "59a85faa1806e7c1cc6152d5acd1cc4379018171"
                 },
                 {
                     "type": "file",
