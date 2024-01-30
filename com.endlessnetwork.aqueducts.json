@@ -5,7 +5,7 @@
   "sdk": "org.freedesktop.Sdk",
   "command": "com.endlessnetwork.aqueducts.sh",
   "tags": ["proprietary"],
-    "finish-args" : [
+    "finish-args": [
         "--share=ipc", 
         "--socket=x11",
         "--device=dri",
@@ -38,12 +38,12 @@
         {
                     "type": "git",
                     "url": "https://github.com/endless-network/Aqueducts_Binary.git",
-                    "commit":"a899754187ceecc43e15c2a0f57065e87461d7cb"
+                    "commit":" 59a85faa1806e7c1cc6152d5acd1cc4379018171"
                 },
                 {
                     "type": "file",
                     "url": "https://github.com/endless-network/Aqueducts_Binary/releases/download/v1.2.2/Aqueducts.zip",
-                    "sha256":"bdaeee7f6dc643d14c7a72bca78a2bb0980f9006c39b8473f8440ea7e13a4d20"
+                    "sha256": "bdaeee7f6dc643d14c7a72bca78a2bb0980f9006c39b8473f8440ea7e13a4d20"
                 }
       ]
     }
